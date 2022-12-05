@@ -1,0 +1,7 @@
+<h1>Welcome to Assignment page</h1>
+
+<h3>Go to course page <%= link_to 'Course', courses_path  %></h3>
+<h3>Go to student page <%= link_to 'Student', students_path  %></h3>
+
+
+<%= button_to "Log out", destroy_user_session_path, :method => :delete %> 
