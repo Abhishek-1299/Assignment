@@ -9,7 +9,33 @@
 	<div class="form-group">
 		<%= form.submit "Search", class: "btn btn-primary btn-lg"%>	
 	</div>
-<% end %> 
+<% end %>
+
+<style>
+	table {
+		font-family: Arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	}
+	th, td {
+		text-align: left;
+		padding: 8px;
+	}
+	th {
+		background-color: #4CAF50;
+		color: white;
+	}
+	tr:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+	a {
+		color: #4CAF50;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #333;
+	}
+</style> 
 
 <table>
 	<thead>
